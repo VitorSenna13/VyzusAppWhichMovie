@@ -12,8 +12,8 @@ export function TabRoutes(){
     return(
         <Tab.Navigator 
         screenOptions={{
-            tabBarStyle: {backgroundColor: '#242A32', height: 70},
-            tabBarLabelStyle: {bottom: 10},
+            tabBarStyle: {backgroundColor: '#242A32', height: 70, paddingTop: 5},
+            tabBarLabelStyle: {top: 2},
             tabBarInactiveTintColor: "#67686D",
             tabBarActiveTintColor: "#fff",
             headerStyle: {backgroundColor: theme.navbar},

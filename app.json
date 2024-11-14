@@ -2,6 +2,17 @@
   "expo": {
     "name": "VyzusAppWhichMovie",
     "slug": "VyzusAppWhichMovie",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "eea3b284-0dd2-47b5-82c5-672e1dbefce1"
+      }
+    }
   }
 }
